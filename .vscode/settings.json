@@ -1,0 +1,14 @@
+{
+  "editor.fontSize": 20,
+  "editor.tabSize": 4,
+  "editor.autoIndent": "full",
+  "editor.wordWrap": "off",
+  "html.format.wrapAttributes": "auto",
+  "prettier.proseWrap": "preserve",
+  "editor.wordWrapColumn": 80,
+  "editor.wrappingIndent": "same",
+  "editor.wrappingStrategy": "simple",
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.format.enable": true
+}
