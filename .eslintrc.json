@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "react/self-closing-comp": "error",
+    "no-unused-vars": "error",
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "prefer": "type-imports" }
+    ],
+    "import/order": ["error", { "alphabetize": { "order": "asc" } }],
+    "no-restricted-imports": ["error", { "patterns": ["../*"] }],
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
