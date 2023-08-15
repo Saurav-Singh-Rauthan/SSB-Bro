@@ -1,0 +1,9 @@
+@use "../../constants/colors.scss" as cols;
+
+.mainContainer {
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  background: inherit;
+  overflow-y: scroll;
+}
