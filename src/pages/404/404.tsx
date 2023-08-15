@@ -9,7 +9,7 @@ const containerVariants = {
     x: "-100vw",
     translateY: "-50%",
     transition: {
-      delay: 0.5,
+      duration: 0.5,
       ease: "easeInOut",
     },
   },
@@ -17,7 +17,7 @@ const containerVariants = {
     x: 0,
     translateY: "-50%",
     transition: {
-      delay: 0.5,
+      duration: 0.5,
       ease: "easeInOut",
     },
   },
