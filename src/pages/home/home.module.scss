@@ -2,8 +2,49 @@
 
 .mainContainer {
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   background: inherit;
   overflow-y: scroll;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  background: url("../../assets/images/homebg.png");
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  padding: 1rem 2rem;
+  width: 40%;
+
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.chatButton {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background: cols.$goldSecondary;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid cols.$white;
+  color: cols.$white;
+  cursor: pointer;
 }
