@@ -1,4 +1,3 @@
-import Styles from "./home.module.scss";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -18,16 +17,17 @@ const containerVariants = {
   },
 };
 
-const Home = () => {
+const About = () => {
   return (
     <motion.div
-      className={Styles.mainContainer}
       variants={containerVariants}
       initial="initial"
       animate="animate"
       exit="initial"
-    ></motion.div>
+    >
+      <p>About section</p>
+    </motion.div>
   );
 };
 
-export default Home;
+export default About;

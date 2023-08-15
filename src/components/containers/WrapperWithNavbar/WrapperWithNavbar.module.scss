@@ -1,0 +1,28 @@
+@use "../../../constants/colors.scss" as cols;
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 9.2fr);
+  grid-template-rows: 100%;
+  height: 100%;
+  width: 100%;
+  background: cols.$grayPrimary;
+}
+
+.content {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: minmax(0, 9.5fr) minmax(0, 0.5fr);
+  gap: 1rem;
+}
+
+.contentContainer {
+  border-radius: 1rem;
+  background: cols.$white;
+  color: black;
+  height: 100%;
+  box-shadow: 0px 0px 5px 1px #ccc;
+  overflow: hidden;
+}
+
