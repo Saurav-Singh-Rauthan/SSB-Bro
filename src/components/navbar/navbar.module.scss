@@ -1,0 +1,61 @@
+@use "../../constants/colors.scss" as cols;
+
+.outerContainer {
+  padding: 2rem 1rem;
+  z-index: 102;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: cols.$goldSecondary;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.navIcons {
+  transition: all 0.3s ease-out;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 999px;
+}
+
+.activeRoute {
+  background: cols.$white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: cols.$goldPrimary !important;
+}
+
+.expandBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.backdrop {
+  height: 100vh;
+  width: 100vw;
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.expandedNav {
+  width: 20%;
+  height: 100%;
+  background: cols.$goldSecondary;
+  z-index: 102;
+  height: 92%;
+  position: absolute;
+  left: 8%;
+  border-radius: 0.5rem;
+}
