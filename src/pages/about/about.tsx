@@ -4,14 +4,14 @@ const containerVariants = {
   initial: {
     x: "-100vw",
     transition: {
-      delay: 0.5,
+      duration: 0.5,
       ease: "easeInOut",
     },
   },
   animate: {
     x: 0,
     transition: {
-      delay: 0.5,
+      duration: 0.5,
       ease: "easeInOut",
     },
   },
