@@ -14,16 +14,16 @@ const ScheduleAppointment = () => {
       <div className={Styles.iconContainer}>
         <div className={Styles.iconWithText}>
           <div className={Styles.icon}>
-            <GiTeacher />
+            <TfiHeadphoneAlt />
           </div>
-          <span>Skilled Mentors</span>
+          <span>Daily Online Meets + Free Live webinars</span>
         </div>
 
         <div className={Styles.iconWithText}>
           <div className={Styles.icon}>
-            <TfiHeadphoneAlt />
+            <GiTeacher />
           </div>
-          <span>Daily Online Meets</span>
+          <span>Skilled Mentors</span>
         </div>
 
         <div className={Styles.iconWithText}>

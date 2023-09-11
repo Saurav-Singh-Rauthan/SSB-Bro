@@ -1,4 +1,5 @@
 import Courses from "./Courses/Courses";
+import Testimonials from "./Testimonials/Testimonials";
 import WhatsNew from "./WhatsNew/WhatsNew";
 import Styles from "./home.module.scss";
 import { motion } from "framer-motion";
@@ -95,8 +96,8 @@ const Home = () => {
       </div>
 
       <WhatsNew />
-
       <Courses />
+      <Testimonials />
     </motion.div>
   );
 };
