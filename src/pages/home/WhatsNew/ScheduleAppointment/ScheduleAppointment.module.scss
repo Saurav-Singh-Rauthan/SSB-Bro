@@ -1,0 +1,53 @@
+@use "../../../../constants/colors.scss" as cols;
+
+.container {
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  background: cols.$bluePrimary;
+  color: cols.$goldSecondary;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 5fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 68px;
+  white-space: break-spaces;
+  text-align: left;
+  font-weight: bold;
+  margin: 2.5rem 0px;
+}
+
+.iconContainer {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 5fr);
+  gap: 3rem;
+}
+
+.iconWithText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.apptmntBtn {
+  background: cols.$goldSecondary;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  padding: 8px 16px;
+  float: left;
+  color: cols.$bluePrimary;
+  font-weight: bold;
+  cursor: pointer;
+}
