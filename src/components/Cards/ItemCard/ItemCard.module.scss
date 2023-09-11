@@ -1,0 +1,56 @@
+@use "../../../constants/colors.scss" as cols;
+
+.container {
+  background: cols.$blackPrimary;
+  border-radius: 8px;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.imgContainer {
+  height: 200px;
+  background: cols.$white;
+  border-radius: 8px;
+  margin: 0.5rem;
+}
+
+.courseTitle {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  margin: 0 1rem;
+  padding-top: 0.5rem;
+}
+
+.courseDesc {
+  color: cols.$white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: left;
+
+  h1 {
+    margin: 0;
+    padding: 0 0.5rem;
+    font-size: 18px;
+  }
+
+  span {
+    padding: 4px 8px;
+    color: cols.$greenPrimary;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: cols.$greenPrimary;
+    color: white;
+    border-radius: 16px;
+  }
+  
+  p{
+    color: cols.$grayPrimary;
+    font-size: 12px;
+    padding: 0 1.5rem;
+    font-weight: 400;
+  }
+}

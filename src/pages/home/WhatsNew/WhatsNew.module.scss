@@ -1,0 +1,62 @@
+@use "../../../constants/colors.scss" as cols;
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 3fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.sectionTitle {
+  text-align: right;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.latestPost {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  background: cols.$blackPrimary;
+  color: cols.$white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.postImage {
+  height: 230px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.postDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.postTitle {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+  p {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.link {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+}

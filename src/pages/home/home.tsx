@@ -1,3 +1,6 @@
+import Courses from "./Courses/Courses";
+import Testimonials from "./Testimonials/Testimonials";
+import WhatsNew from "./WhatsNew/WhatsNew";
 import Styles from "./home.module.scss";
 import { motion } from "framer-motion";
 
@@ -40,7 +43,7 @@ const firstContainerVariants = {
 
 const buttonVariants = {
   initial: {
-    x: '-100vw',
+    x: "-100vw",
   },
   animate: {
     x: 60,
@@ -91,6 +94,10 @@ const Home = () => {
           </a>
         </motion.button>
       </div>
+
+      <WhatsNew />
+      <Courses />
+      <Testimonials />
     </motion.div>
   );
 };

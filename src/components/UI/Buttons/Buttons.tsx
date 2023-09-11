@@ -14,7 +14,7 @@ const BTN_SIZE = {
   large: Styles.btnLarge,
 };
 
-const Buttons: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   variant,
   color,
   className,
@@ -29,9 +29,9 @@ const Buttons: React.FC<ButtonProps> = ({
       onClick={onClick}
       disabled={disabled}
     >
-      {loading! ? children : "spinner"}
+      {loading! ? "spinner" : children}
     </button>
   );
 };
 
-export default Buttons;
+export default Button;
