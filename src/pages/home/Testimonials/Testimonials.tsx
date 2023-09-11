@@ -28,7 +28,24 @@ const Testimonials = () => {
       </div>
 
       {/* Testimonial Carousel */}
-      <div></div>
+      <div className={Styles.testimonialContainer}>
+        <p className={Styles.testimonialTitle}>Testimonials</p>
+        <div className={Styles.testimonialCarousel}>
+          <div>
+            <p>
+              " Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae inventore illo perferendis molestiae laboriosam odit
+              vel ex natus, velit distinctio qui quos vitae ipsum eveniet fugit
+              voluptas iusto facere ut? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Nam quam odit vitae distinctio est, esse iste
+              commodi officia, labore delectus, culpa quasi accusantium
+              laudantium iure illo deleniti sit sunt earum. "
+            </p>
+            <span>- Saurav Singh Rauthan</span>
+          </div>
+          <div className={Styles.pplImg}></div>
+        </div>
+      </div>
     </div>
   );
 };
