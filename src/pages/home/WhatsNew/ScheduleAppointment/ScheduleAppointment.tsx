@@ -23,7 +23,7 @@ const ScheduleAppointment = () => {
           <div className={Styles.icon}>
             <TfiHeadphoneAlt />
           </div>
-          <span>Online Meets</span>
+          <span>Daily Online Meets</span>
         </div>
 
         <div className={Styles.iconWithText}>
